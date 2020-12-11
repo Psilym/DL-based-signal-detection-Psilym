@@ -61,6 +61,10 @@ We tested the DNN and DetectNet in $sample\ length = 64$. The tables are shown b
 
 <img src="source_material/table2.png" alt="Table 2" style="zoom: 75%;" />
 
+![table1](https://github.com/Psilym/DL-based-signal-detection-Psilym/blob/master/source_material/table1.png)
+
+![table2](https://github.com/Psilym/DL-based-signal-detection-Psilym/blob/master/source_material/table2.png)
+
 
 ## File Structure
 
