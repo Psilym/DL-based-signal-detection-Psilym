@@ -18,10 +18,10 @@ The generation of dataset using **GNURadio** packages could be complicated due t
 Besides, an **error** was found in `generate_dataset.py` from the source code, which can be fixed as following: 
 
 ```python
-#					  dataset[(mod_type.modname, snr)][modvec_indx,0,:] = np.real(sampled_vector) #line 55
-#					  dataset[(mod_type.modname, snr)][modvec_indx,1,:] = np.imag(sampled_vector) 
-					  dataset[(mod_type.modname, snr)][modvec_indx,0,:] = np.real(total_vector)
-					  dataset[(mod_type.modname, snr)][modvec_indx,1,:] = np.imag(total_vector)
+#dataset[(mod_type.modname, snr)][modvec_indx,0,:] = np.real(sampled_vector) #line 55
+#dataset[(mod_type.modname, snr)][modvec_indx,1,:] = np.imag(sampled_vector) 
+dataset[(mod_type.modname, snr)][modvec_indx,0,:] = np.real(total_vector)
+dataset[(mod_type.modname, snr)][modvec_indx,1,:] = np.imag(total_vector)
 ```
 
 In order to help researchers try this dataset, we uploaded our dataset (with sample length = 64, SNR = -50 ~ 10 with step 2) on the [google drive](https://drive.google.com/file/d/1TnEeQ4XC_4vabu_9M1QmbTQoNIckk5SJ/view?usp=sharing).
@@ -57,9 +57,9 @@ My train files and functions are listed as below:
 
 We tested the DNN and DetectNet in $sample\ length = 64$. The tables are shown below. From the results, we can conclude that the DetectNet has a lower SNR threshlod than DNN.
 
-<img src="/home/psilym/Phdoing/signalDL/DL-based-signal-detection-master/source_material/table1.png" alt="Table 1" style="zoom:80%;" />
+<img src="./source_material/table1.png" alt="Table 1" style="zoom:80%;" />
 
-<img src="/home/psilym/Phdoing/signalDL/DL-based-signal-detection-master/source_material/table2.png" alt="Table 2" style="zoom: 75%;" />
+<img src="./source_material/table2.png" alt="Table 2" style="zoom: 75%;" />
 
 
 
