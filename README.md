@@ -57,13 +57,13 @@ My train files and functions are listed as below:
 
 We tested the DNN and DetectNet in $sample\ length = 64$. The tables are shown below. From the results, we can conclude that the DetectNet has a lower SNR threshlod than DNN.
 
-<img src="source_material/table1.png" alt="Table 1" style="zoom:80%;" />
+<img src="material/table1.png" alt="Table 1" style="zoom:80%;" />
 
-<img src="source_material/table2.png" alt="Table 2" style="zoom: 75%;" />
+<img src="material/table2.png" alt="Table 2" style="zoom: 75%;" />
 
-![table1](https://github.com/Psilym/DL-based-signal-detection-Psilym/blob/master/source_material/table1.png)
+![table1](https://github.com/Psilym/DL-based-signal-detection-Psilym/blob/master/material/table1.png)
 
-![table2](https://github.com/Psilym/DL-based-signal-detection-Psilym/blob/master/source_material/table2.png)
+![table2](https://github.com/Psilym/DL-based-signal-detection-Psilym/blob/master/material/table2.png)
 
 
 ## File Structure
