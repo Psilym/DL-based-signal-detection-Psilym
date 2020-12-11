@@ -57,10 +57,9 @@ My train files and functions are listed as below:
 
 We tested the DNN and DetectNet in $sample\ length = 64$. The tables are shown below. From the results, we can conclude that the DetectNet has a lower SNR threshlod than DNN.
 
-<img src="./source_material/table1.png" alt="Table 1" style="zoom:80%;" />
+<img src="source_material/table1.png" alt="Table 1" style="zoom:80%;" />
 
-<img src="./source_material/table2.png" alt="Table 2" style="zoom: 75%;" />
-
+<img src="source_material/table2.png" alt="Table 2" style="zoom: 75%;" />
 
 
 ## File Structure
